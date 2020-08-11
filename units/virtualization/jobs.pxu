@@ -20,6 +20,7 @@ category_id: com.canonical.plainbox::virtualization
 id: virtualization/verify_lxd
 environ: LXD_TEMPLATE LXD_ROOTFS
 estimated_duration: 30.0
+user: root
 requires:
  executable.name == 'lxc'
  package.name == 'lxd' or snap.name == 'lxd'
